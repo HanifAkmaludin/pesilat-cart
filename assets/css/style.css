@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    background-color: #F3EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    width: 45%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card .img{
+    width: 50%;
+}
+
+
+.card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .description{
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.card .description h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.card .description h1{
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Fraunces";
+    margin-bottom: 20px;
+}
+
+.card .description p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+
+.card .description .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card .description .price p:first-child{
+    color: #3E8169;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card .description .price p:last-child{
+    color: rgb(147, 147, 147);
+    text-decoration: line-through;
+}
+
+.card .description button{
+    background-color: #3E8169;
+    border: none;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card .description button:hover{
+    transform: translateY(-4px);
+}
+
+
