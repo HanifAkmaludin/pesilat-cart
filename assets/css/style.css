@@ -67,12 +67,14 @@ body{
 .card .description .price p:first-child{
     color: #3E8169;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: "Fraunces";
 }
 
 .card .description .price p:last-child{
     color: rgb(147, 147, 147);
     text-decoration: line-through;
+    font-family: "Fraunces";
 }
 
 .card .description button{
